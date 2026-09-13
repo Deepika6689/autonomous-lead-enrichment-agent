@@ -206,24 +206,36 @@ a fabricated number.
 ## Project Structure
 
 ```
-src/
-  main.py              CLI entrypoint
-  config.py            env-based settings
-  models.py            Pydantic schemas
-  crawler.py            Playwright fetch logic (timeouts, 404/blocked/error handling)
-  page_discovery.py     internal link discovery, capped
-  content_cleaner.py    HTML -> clean, deduped, truncated text
-  extractors.py         deterministic email/LinkedIn regex extraction
-  llm_client.py         Groq call, JSON mode, Pydantic validation, corrective retry, hallucination backstop
-  enrichment_agent.py   per-domain pipeline orchestration, error isolation
-  confidence.py         documented deterministic scoring formula
-  search_client.py      optional Tavily fallback (Bonus 1)
-  cost_tracker.py       token/cost aggregation (Bonus 3)
-  utils.py              logging setup, URL helpers
-tests/
-  test_extractors.py    unit tests for deterministic logic
-output/output.json      real run output (3/3 domains succeeded - see status table above)
-domains.json            default domain list
-.env.example
-requirements.txt
+autonomous-lead-enrichment-agent/
+│
+├── src/
+│   ├── __init__.py
+│   ├── main.py                # CLI entrypoint
+│   ├── config.py              # Environment-based settings
+│   ├── models.py              # Pydantic schemas
+│   ├── crawler.py             # Playwright fetch logic and error handling
+│   ├── page_discovery.py      # Internal relevant link discovery with page caps
+│   ├── content_cleaner.py     # HTML → clean, deduplicated, truncated text
+│   ├── extractors.py          # Deterministic email and LinkedIn extraction
+│   ├── llm_client.py          # Groq LLM calls, structured output and validation
+│   ├── enrichment_agent.py    # Per-domain pipeline orchestration and error isolation
+│   ├── confidence.py          # Deterministic confidence scoring
+│   ├── search_client.py       # Optional Tavily search fallback (Bonus)
+│   ├── cost_tracker.py        # Token usage and estimated cost tracking (Bonus)
+│   └── utils.py               # Logging and URL helper functions
+│
+├── tests/
+│   └── test_extractors.py     # Unit tests for deterministic extraction logic
+│
+├── output/
+│   └── output.json            # Generated output from actual runs
+│
+├── logs/
+│   └── .gitkeep
+│
+├── domains.json               # Default input domain list
+├── .env.example               # Example environment variables
+├── .gitignore                 # Prevent secrets/output clutter from being committed
+├── requirements.txt
+└── README.md
 ```
