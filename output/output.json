@@ -1,0 +1,189 @@
+[
+  {
+    "domain": "postman.com",
+    "status": "success",
+    "company_overview": "Postman offers an AI\u2011native API platform that lets developers design, test, manage and distribute APIs, supporting both individual engineers and large enterprises. It streamlines the entire API lifecycle and facilitates collaboration.",
+    "target_audience": "Software engineers, development teams and enterprises that build, test, and manage APIs.",
+    "contact_points": {
+      "emails": [
+        "info@postman.com"
+      ]
+    },
+    "leadership": [
+      {
+        "name": "Abhinav Asthana",
+        "role": "CEO/Co-Founder",
+        "linkedin_url": null
+      },
+      {
+        "name": "Ankit Sobti",
+        "role": "CTO/Co-Founder",
+        "linkedin_url": null
+      },
+      {
+        "name": "Abhijit Kane",
+        "role": "Co-Founder",
+        "linkedin_url": null
+      },
+      {
+        "name": "Kin Lane",
+        "role": "Chief Evangelist",
+        "linkedin_url": null
+      }
+    ],
+    "confidence_score": 0.9,
+    "confidence_breakdown": {
+      "overview_present": 0.2,
+      "audience_present": 0.15,
+      "has_generic_email": 0.2,
+      "has_leadership": 0.15,
+      "has_personal_linkedin": 0.0,
+      "crawl_success_ratio": 0.2
+    },
+    "pages_crawled": [
+      {
+        "url": "https://postman.com",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://postman.com/company/about-postman/",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://postman.com/company/careers/",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://postman.com/company/contact-us/",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://postman.com/company/press-media/",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://postman.com/pricing/",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://www.postman.com/company/contact-sales/",
+        "status": "ok",
+        "detail": null
+      }
+    ],
+    "token_usage": {
+      "input_tokens": 4638,
+      "output_tokens": 876,
+      "estimated_cost_usd": 0.003428
+    }
+  },
+  {
+    "domain": "supabase.com",
+    "status": "success",
+    "company_overview": "Supabase offers an open\u2011source Postgres\u2011based development platform that provides managed databases, authentication, real\u2011time sync, storage, edge functions and AI integrations. It enables developers to build full\u2011stack applications without managing infrastructure.",
+    "target_audience": "Developers, AI builders, citizen developers and enterprises that need a scalable, secure backend built on Postgres.",
+    "contact_points": {
+      "emails": [
+        "abuse@supabase.com",
+        "legal@supabase.com",
+        "privacy@supabase.com",
+        "security@supabase.com"
+      ]
+    },
+    "leadership": [],
+    "confidence_score": 0.75,
+    "confidence_breakdown": {
+      "overview_present": 0.2,
+      "audience_present": 0.15,
+      "has_generic_email": 0.2,
+      "has_leadership": 0.0,
+      "has_personal_linkedin": 0.0,
+      "crawl_success_ratio": 0.2
+    },
+    "pages_crawled": [
+      {
+        "url": "https://supabase.com",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://supabase.com/solutions/innovation-teams",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://supabase.com/company",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://supabase.com/contact-us",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://supabase.com/contact/sales",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://supabase.com/pricing",
+        "status": "ok",
+        "detail": null
+      }
+    ],
+    "token_usage": {
+      "input_tokens": 4510,
+      "output_tokens": 873,
+      "estimated_cost_usd": 0.003351
+    }
+  },
+  {
+    "domain": "vapi.ai",
+    "status": "success",
+    "company_overview": "Vapi offers a platform that lets businesses and developers build, deploy, and manage advanced voice AI agents quickly and at scale. The service includes orchestration, real\u2011time monitoring, and enterprise\u2011grade compliance features.",
+    "target_audience": "Enterprises and developers looking to create voice\u2011based AI agents for customer support, sales, scheduling, and other use cases.",
+    "contact_points": {
+      "emails": []
+    },
+    "leadership": [
+      {
+        "name": "Jason Mitura",
+        "role": "VP of Software Development",
+        "linkedin_url": null
+      }
+    ],
+    "confidence_score": 0.7,
+    "confidence_breakdown": {
+      "overview_present": 0.2,
+      "audience_present": 0.15,
+      "has_generic_email": 0.0,
+      "has_leadership": 0.15,
+      "has_personal_linkedin": 0.0,
+      "crawl_success_ratio": 0.2
+    },
+    "pages_crawled": [
+      {
+        "url": "https://vapi.ai",
+        "status": "ok",
+        "detail": null
+      },
+      {
+        "url": "https://vapi.ai/pricing",
+        "status": "ok",
+        "detail": null
+      }
+    ],
+    "token_usage": {
+      "input_tokens": 1570,
+      "output_tokens": 412,
+      "estimated_cost_usd": 0.001252
+    }
+  }
+]
