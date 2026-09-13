@@ -1,4 +1,4 @@
-# Autonomous Lead Enrichment Agen
+# Autonomous Lead Enrichment Agent
 
 A Python agent that crawls public company websites (JS-rendered included),
 cleans the content down to a token-efficient context, and uses an LLM
