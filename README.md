@@ -208,7 +208,6 @@ a fabricated number.
 ## Project Structure
 
 ```
-```
 autonomous-lead-enrichment-agent/
 │
 ├── src/
@@ -242,4 +241,4 @@ autonomous-lead-enrichment-agent/
 ├── requirements.txt
 └── README.md
 ```
-```
+
